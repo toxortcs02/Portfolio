@@ -55,10 +55,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0 16px;
+  padding: 24px 40px 16px;
   border-bottom: 4px solid var(--gold);
   flex-wrap: wrap;
   gap: 12px;
+  width: 100%;
+  background-color: var(--darker);
 }
 
 .nav-logo {
@@ -179,22 +181,39 @@ section { padding: 52px 0; }
 }
 
 /* ── SKILLS ── */
-.skills-grid {
+.skills-categories {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 24px;
 }
 
-@media (max-width: 600px) { .skills-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .skills-categories { grid-template-columns: 1fr; } }
 
-.skill-card { padding: 24px 20px; }
+.skill-category { padding: 24px 20px; }
 
-.skill-header {
+.skill-category-title {
+  font-size: 10px;
+  color: var(--gold);
+  margin: 0 0 20px;
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-  font-size: 10px;
+  gap: 8px;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.skill-name {
+  font-size: 9px;
   color: var(--parchment);
 }
 
@@ -412,3 +431,76 @@ footer span { color: var(--gold); }
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--darker); }
 ::-webkit-scrollbar-thumb { background: var(--gold); }
+
+/* ── RESPONSIVE ── */
+
+/* Tablet (≤768px) */
+@media (max-width: 768px) {
+  body { font-size: 10px; }
+
+  #app { padding: 0 16px; }
+
+  section { padding: 36px 0; }
+
+  .nav-logo { font-size: 11px; }
+
+  .section-title { font-size: 13px; margin-bottom: 24px; }
+
+  .hero-title { font-size: clamp(14px, 5vw, 22px); }
+
+  .hero-desc { font-size: 9px; line-height: 2.2; }
+
+  .about-text { font-size: 9px; }
+
+  .stat-table { font-size: 9px; }
+  .stat-table td { padding: 8px 4px; }
+
+  .contact-box { padding: 20px 16px; }
+  .contact-box p { font-size: 9px; }
+}
+
+/* Mobile (≤480px) */
+@media (max-width: 480px) {
+  body { font-size: 9px; }
+
+  #app { padding: 0 10px; }
+
+  section { padding: 28px 0; }
+
+  nav { padding: 16px 10px 12px; }
+  .nav-logo { font-size: 9px; }
+  .nav-links { gap: 10px; }
+  .nav-links a { font-size: 8px; }
+
+  .hero-title { font-size: clamp(11px, 6vw, 18px); }
+  .hero-subtitle { font-size: 8px; letter-spacing: 1px; }
+  .hero-desc { font-size: 8px; line-height: 2; }
+
+  .cta-group { flex-direction: column; align-items: center; gap: 12px; }
+  .cta-group .nes-btn { width: 100%; max-width: 260px; text-align: center; }
+
+  .section-title { font-size: 11px; }
+
+  .skills-grid { gap: 16px; }
+  .skill-card { padding: 16px 12px; }
+  .skill-header { font-size: 9px; }
+
+  .projects-grid { gap: 16px; }
+  .project-card { padding: 16px; gap: 10px; }
+  .project-title { font-size: 10px; }
+  .project-badge { font-size: 7px; }
+  .project-links { flex-wrap: wrap; gap: 8px; }
+  .project-links .nes-btn { flex: 1; min-width: 80px; text-align: center; }
+
+  .about-text { font-size: 8px; line-height: 2.2; }
+
+  .stat-table { font-size: 8px; }
+  .stat-table td:last-child { text-align: left; }
+
+  .contact-links { gap: 8px; }
+  .contact-links .nes-btn { font-size: 8px; padding: 8px 10px; }
+
+  .divider { font-size: 10px; letter-spacing: 4px; }
+
+  footer { font-size: 8px; }
+}
