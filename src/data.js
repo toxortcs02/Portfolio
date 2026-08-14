@@ -10,12 +10,6 @@ export const projects = [
     stack: '[Full-Stack]',
     demo: 'https://lolero.vercel.app/',
     code: 'https://github.com/toxortcs02/Lolero'
-  },
-  {
-    id: 'siege-engine',
-    stack: '[Full-Stack]',
-    demo: '#',
-    code: '#'
   }
 ]
 
