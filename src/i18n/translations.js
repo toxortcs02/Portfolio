@@ -9,7 +9,7 @@ export const translations = {
     },
     hero: {
       title: 'TOMAS SABELLA',
-      subtitle: '✦ BACKEND DEVELOPER ✦',
+      subtitle: '✦ DEVELOPER ✦',
       desc: 'Full-stack developer with a focus on backend development, specializing in Python, Java, Spring, and microservices in high-demand banking environments. Interested in integrating AI into real-world systems and building scalable solutions.',
       viewQuests: '⚔ VIEW QUESTS',
       summonMe: '✦ SUMMON ME'
@@ -78,7 +78,7 @@ export const translations = {
     },
     hero: {
       title: 'TOMAS SABELLA',
-      subtitle: '✦ DESARROLLADOR BACKEND ✦',
+      subtitle: '✦ DESARROLLADOR ✦',
       desc: 'Desarrollador full-stack enfocado en backend, especializado en Python, Java, Spring y microservicios en entornos bancarios de alta exigencia. Interesado en integrar IA en sistemas reales y construir soluciones escalables.',
       viewQuests: '⚔ VER MISIONES',
       summonMe: '✦ INVOCARME'
