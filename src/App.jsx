@@ -5,6 +5,7 @@ import Projects from './components/Projects'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import { LanguageProvider } from './i18n/LanguageContext'
 
 function Divider() {
   return <p className="divider">✦ · · · ⚔ · · · ✦</p>
@@ -12,7 +13,7 @@ function Divider() {
 
 export default function App() {
   return (
-    <>
+    <LanguageProvider>
       <Nav />
       <div id="app">
         <Hero />
@@ -26,6 +27,6 @@ export default function App() {
         <Contact />
       </div>
       <Footer />
-    </>
+    </LanguageProvider>
   )
 }
