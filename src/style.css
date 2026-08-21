@@ -327,7 +327,7 @@ section { padding: 52px 0; }
     var(--stone);
   box-shadow: 0 0 0 1px rgba(201,168,76,.15), 0 12px 28px rgba(0,0,0,.45);
   overflow: hidden;
-  transition: transform .18s ease, box-shadow .18s ease;
+  transition: box-shadow .18s ease;
 }
 
 .experience-card::before {
@@ -342,8 +342,7 @@ section { padding: 52px 0; }
 }
 
 .experience-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 0 0 1px rgba(201,168,76,.35), 0 18px 36px rgba(0,0,0,.55), 0 0 24px rgba(201,168,76,.15);
+  box-shadow: 0 0 0 1px rgba(201,168,76,.35), 0 12px 28px rgba(0,0,0,.45), 0 0 24px rgba(201,168,76,.15);
 }
 
 .experience-header {

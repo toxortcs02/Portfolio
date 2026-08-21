@@ -3,6 +3,7 @@ export const translations = {
     nav: {
       logo: 'THE CODE DUNGEON',
       skills: 'SKILLS',
+      campaign: 'CAMPAIGN',
       quests: 'QUESTS',
       lore: 'LORE',
       summon: 'SUMMON'
@@ -21,6 +22,36 @@ export const translations = {
       testing: 'Testing',
       infra: 'Infrastructure',
       integrations: 'Integrations'
+    },
+    experienceTitle: '🏰 THE CAMPAIGN LOG',
+    experience: {
+      'ia-chatbot': {
+        title: 'AI Chatbot',
+        role: 'AI Chatbot Developer',
+        status: 'Live',
+        bullets: [
+          'Built an AI-powered chatbot for internal, production use at the bank using Python, FastAPI, and LangChain.',
+          'Implemented Retrieval-Augmented Generation (RAG) flows with vector databases for contextual answers over internal documentation.',
+          'Integrated the OpenAI API as the language engine and Chatwoot as the multichannel messaging platform.',
+          'Built and fixed critical production chatbot flows: card unblocking, retiree payment receipts, balance inquiries, among others.',
+          'Designed the architecture for natural language processing pipelines and conversation history management.',
+          'Ensured flow quality and stability through testing and validation before each release.'
+        ]
+      },
+      'banking-backend': {
+        title: 'Banking Application Backend',
+        role: 'Backend Developer',
+        status: 'Live',
+        bullets: [
+          'Developed end-to-end microservice flows for Banco Macro\'s banking application in production.',
+          'Integrated services with REST APIs under a layered architecture using APIGEE as API Gateway.',
+          'Implemented authentication and authorization with Spring Security, JWT, and OAuth2.',
+          'Designed and validated RESTful APIs with Swagger and Postman.',
+          'Managed CI/CD pipelines with GitLab and Jenkins; monitoring with Kibana and OpenSearch.',
+          'Collaborated with international teams in Brazil and Uruguay under agile methodologies (Scrum).',
+          'Applied cybersecurity practices: data encryption, secrets management, and OAuth2.'
+        ]
+      }
     },
     projectsTitle: '📜 THE QUEST BOARD',
     projects: {
@@ -72,6 +103,7 @@ export const translations = {
     nav: {
       logo: 'LA MAZMORRA DEL CODIGO',
       skills: 'HABILIDADES',
+      campaign: 'CAMPAÑA',
       quests: 'MISIONES',
       lore: 'HISTORIA',
       summon: 'INVOCAR'
@@ -90,6 +122,36 @@ export const translations = {
       testing: 'Testing',
       infra: 'Infraestructura',
       integrations: 'Integraciones'
+    },
+    experienceTitle: '🏰 LA BITÁCORA DE CAMPAÑA',
+    experience: {
+      'ia-chatbot': {
+        title: 'Chatbot de IA',
+        role: 'IA Chatbot Developer',
+        status: 'Productivo',
+        bullets: [
+          'Desarrollé un chatbot con inteligencia artificial para uso productivo interno del banco, utilizando Python, FastAPI y LangChain.',
+          'Implementé flujos de Retrieval-Augmented Generation (RAG) con bases de datos vectoriales para respuestas contextuales sobre documentación interna.',
+          'Integré la API de OpenAI como motor de lenguaje y Chatwoot como plataforma de mensajería multicanal.',
+          'Desarrollé y corregí flujos críticos del chatbot en producción: desbloqueo de tarjeta, comprobantes de pago de jubilados, consultas de saldo, entre otros.',
+          'Diseñé la arquitectura de los pipelines de procesamiento de lenguaje natural y gestión del historial de conversación.',
+          'Aseguré la calidad y estabilidad de los flujos mediante testing y validaciones antes de cada release.'
+        ]
+      },
+      'banking-backend': {
+        title: 'Backend para Aplicación Bancaria',
+        role: 'Backend Developer',
+        status: 'Productivo',
+        bullets: [
+          'Desarrollé flujos end-to-end de microservicios para la aplicación bancaria de Banco Macro en producción.',
+          'Integré servicios con APIs REST bajo arquitectura en capas usando APIGEE como API Gateway.',
+          'Implementé autenticación y autorización con Spring Security, JWT y OAuth2.',
+          'Diseñé y validé APIs RESTful con Swagger y Postman.',
+          'Gestioné pipelines de CI/CD con GitLab y Jenkins; monitoreo con Kibana y OpenSearch.',
+          'Colaboré con equipos internacionales en Brasil y Uruguay bajo metodologías ágiles (Scrum).',
+          'Apliqué prácticas de ciberseguridad: encriptación de datos, gestión de secretos y OAuth2.'
+        ]
+      }
     },
     projectsTitle: '📜 TABLON DE MISIONES',
     projects: {

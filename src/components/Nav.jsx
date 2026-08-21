@@ -8,6 +8,7 @@ export default function Nav() {
       <span className="nav-logo">⚔ {t.nav.logo}<span className="blink">_</span></span>
       <ul className="nav-links">
         <li><a href="#skills">{t.nav.skills}</a></li>
+        <li><a href="#experience">{t.nav.campaign}</a></li>
         <li><a href="#projects">{t.nav.quests}</a></li>
         <li><a href="#about">{t.nav.lore}</a></li>
         <li><a href="#contact">{t.nav.summon}</a></li>
