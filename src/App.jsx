@@ -1,6 +1,7 @@
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
+import Experience from './components/Experience'
 import Projects from './components/Projects'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -17,9 +18,11 @@ export default function App() {
       <div id="app">
         <Hero />
         <Divider />
-        <Skills />
+        <Experience />
         <Divider />
         <Projects />
+        <Divider />
+        <Skills />
         <Divider />
         <About />
         <Divider />
