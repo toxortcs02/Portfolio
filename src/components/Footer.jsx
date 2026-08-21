@@ -1,8 +1,12 @@
+import { useLanguage } from '../i18n/LanguageContext'
+
 export default function Footer() {
+  const { t } = useLanguage()
+
   return (
     <footer>
-      <p>© 2025 THE CODE KEEP &nbsp;⚔&nbsp; FORGED WITH <span>♥</span> AND MEAD</p>
-      <p>MAY YOUR BUILDS NEVER FAIL<span className="blink">_</span></p>
+      <p>{t.footer.line1}</p>
+      <p>{t.footer.line2}<span className="blink">_</span></p>
     </footer>
   )
 }

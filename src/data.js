@@ -36,82 +36,70 @@ export const experience = [
 
 export const projects = [
   {
-    tag: 'Tennis Court Reservation System',
-    title: 'Backhand Booking',
+    id: 'backhand-booking',
     stack: '[Full-Stack]',
-    desc: 'Tennis Court Reservation System developed with PHP, MySQL and React.',
     demo: 'https://github.com/toxortcs02/canchas-app',
-    code: 'https://github.com/toxortcs02/canchas-app',
+    code: 'https://github.com/toxortcs02/canchas-app'
   },
   {
-    tag: 'League Tracker',
-    title: 'Result tracker',
+    id: 'lolero',
     stack: '[Full-Stack]',
-    desc: 'A web app for tracking and visualizing results of a League of Legends team, built with TypeScript, React, and plpgSQL.',
-    demo: 'https://fake-clan.vercel.app/',
-    code: 'https://github.com/Corcholog/FKC',
-  },
-  {
-    tag: 'BATTLE',
-    title: 'SIEGE ENGINE',
-    stack: '[Full-Stack]',
-    desc: 'Turn-based siege warfare in the browser — command trebuchets, knights, and archers.',
-    demo: '#',
-    code: '#',
-  },
+    demo: 'https://lolero.vercel.app/',
+    code: 'https://github.com/toxortcs02/Lolero'
+  }
 ]
 
 export const skillCategories = [
   {
-    category: 'Backend & DB',
+    id: 'backend',
     icon: '⚔️',
     color: 'is-warning',
     skills: [
-      { name: 'Java',    level: 90 },
-      { name: 'Python',  level: 80 },
-      { name: 'Spring',  level: 75 },
+      { name: 'Java', level: 90 },
+      { name: 'Python', level: 80 },
+      { name: 'Spring', level: 75 },
       { name: 'Node.js', level: 80 },
-      { name: 'SQL',     level: 75 },
-    ],
+      { name: 'SQL', level: 75 }
+    ]
   },
   {
-    category: 'Frontend',
+    id: 'frontend',
     icon: '🔮',
     color: 'is-primary',
     skills: [
-      { name: 'React',      level: 80 },
-      { name: 'HTML/CSS/JS',level: 75 },
+      { name: 'React', level: 80 },
+      { name: 'HTML/CSS/JS', level: 75 },
       { name: 'TypeScript', level: 70 },
-      { name: 'Vite',  level: 70 },
-    ],
+      { name: 'Vite', level: 70 }
+    ]
   },
   {
-    category: 'Testing',
+    id: 'testing',
     icon: '🛡️',
     color: 'is-success',
     skills: [
-      { name: 'JUnit',   level: 70 },
+      { name: 'JUnit', level: 70 },
       { name: 'Mockito', level: 65 },
-      { name: 'pytest',  level: 60 },
-      { name: 'Postman',  level: 75 },
-    ],
+      { name: 'pytest', level: 60 },
+      { name: 'Postman', level: 75 }
+    ]
   },
   {
-    category: 'Infraestructura',
+    id: 'infra',
     icon: '⚓',
     color: 'is-success',
     skills: [
       { name: 'Docker/Kubernetes', level: 60 },
-      { name: 'Git/GitHub',        level: 90 },
-    ],
+      { name: 'Git/GitHub', level: 90 }
+    ]
   },
   {
-    category: 'Integraciones',
+    id: 'integrations',
     icon: '🧙',
     color: 'is-primary',
     skills: [
       { name: 'LangChain', level: 50 },
-      { name: 'REST APIs', level: 80 },
-    ],
-  },
+      { name: 'REST APIs', level: 80 }
+    ]
+  }
 ]
