@@ -106,14 +106,14 @@ export const translations = {
       campaign: 'CAMPAÑA',
       quests: 'MISIONES',
       lore: 'HISTORIA',
-      summon: 'INVOCAR'
+      summon: 'CONTACTAME!'
     },
     hero: {
       title: 'TOMAS SABELLA',
       subtitle: '✦ DESARROLLADOR ✦',
       desc: 'Desarrollador full-stack enfocado en backend, especializado en Python, Java, Spring y microservicios en entornos bancarios de alta exigencia. Interesado en integrar IA en sistemas reales y construir soluciones escalables.',
       viewQuests: '⚔ VER MISIONES',
-      summonMe: '✦ INVOCARME'
+      summonMe: '✦ INVOCAME!'
     },
     skillsTitle: '⚔ HABILIDADES DEL REINO',
     skillCategories: {
