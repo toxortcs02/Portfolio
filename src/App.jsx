@@ -16,7 +16,7 @@ export default function App() {
   return (
     <LanguageProvider>
       <Nav />
-      <div id="app">
+      <div id="content">
         <Hero />
         <Divider />
         <Experience />
